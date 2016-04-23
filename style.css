@@ -1,0 +1,141 @@
+/*Cant get the main div under header box. losing top paragraph*/
+
+/*Having issues with small/wide browsers meaning fixed/fluid, any suggestions guys?*/
+
+.header {position: fixed;
+    background-color: indianred;
+    height:15%;
+    width: 71%;
+    font-family:'Playfair Display' serif;
+    font-size: 90px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: -8px;
+}
+
+.sideleft{position: fixed;
+    background-color: lightgrey;
+    text-align: center;
+    width:16%;
+    height:100%;
+    display:inline-block;
+    margin-top: -8px;
+    margin-left: -8px;
+    
+}
+.sideleft img {width: 100%; margin-top: -16px;}
+.sideleft ul li a:hover {color: red; font-size: 17px;}
+.sideleft ul {list-style-type: none;}
+.sideleft p {text-align: center;}
+.sideleft ul li {text-align: left; margin-left: -30px;}
+.sideleft form {color: black; text-align: left; margin-left: 4px;}
+.sideleft p {text-align: center; color: red;}
+
+
+.sideright {position: fixed;
+    background-color:lightgrey;
+    text-align: center;
+    width:17%;
+    height:100%;
+
+    margin-top: -8px;
+    margin-right: -1px;
+    margin-left: 85%;
+
+ 
+}
+.sideright img {width: 100%; height: 60%; margin-top: -16px;}
+.sideright ul li a:hover {color: red; font-size: 13px;}
+.sideright ul {list-style-type: none;}
+.sideright p {color:red;}
+.sideright ul li {text-align: center; margin-right: 45px;}
+
+
+#follow {margin: auto;
+    margin-top: -12px;
+    height: 21px;
+    width: 95px;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    border-style: solid;
+    text-align: center;
+    border-radius:5px; text-align: center;
+}
+
+
+.main {
+    margin-left: 15%;
+    background-color:yellow;
+    width:71%;
+    height:70%;
+
+}
+.main div {margin-top: -19px;}
+.main div p {
+    text-indent: 25px;
+    padding-right: 25px;
+    padding-left: 20px;
+    text-align: justify;}
+
+.main div p a {color: red;text-decoration: underline;}
+
+
+
+#newsamerica ul {list-style-type: none;}
+#newsamerica ul li {display: inline-block; margin-bottom: -35px;}
+#newsamerica li img {height: 162px; width: 228px; border: 1px black solid;}
+#newsamerica li p {text-align: left; height:90px; width: 200px; margin-right: -15px;}
+
+h2 {padding-left: 20px;}
+h3 {padding-left: 25px; text-decoration: underline;}
+h4 {padding-left: 20px;}
+
+
+.anchor {
+    position: relative;
+    top: -200px;
+    display: block;
+}
+
+.footer {position: fixed;
+    background-color:lightgrey;
+    height:5%;
+    width: 75%;
+    margin-left: 11%;
+    bottom: -2px;
+    
+    
+  }
+.footer ul {list-style-type: none;
+    text-align: center;
+    margin: auto;
+
+}
+
+.footer li { display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+
+} 
+
+.outsidertitle {
+    font-size:58px; 
+    text-align: center; 
+    color: red; 
+    background-color: lightgrey; 
+    border: 1px solid black; 
+    margin: auto; 
+    margin-top:-10px; 
+    height: 100px; 
+    width:100%;
+}
+
+.outsider {border: 1px solid black; margin: auto; padding: 10px; text-align: justify; background-color: lightgreen; color: black;}
+.outsider p {text-indent: 25px;}
+
+
+
+
